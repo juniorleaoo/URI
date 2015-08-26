@@ -2,10 +2,8 @@
 #include <algorithm>
 #include <iostream>
 using namespace std;
-
-int V[3];
 int main() {
-    int a, b, c;
+    int a, b, c,int V[3];
     while(cin >> a >> b >> c) {
         V[0] = a;
         V[1] = b;
