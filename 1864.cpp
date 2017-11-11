@@ -8,5 +8,5 @@ int main(){
 	for(i=0;i<n;i++)
 		saida += frase[i];		
 	cout<<saida<<"\n";
-	return 0;
+	return 0; 
 }
