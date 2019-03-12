@@ -1,6 +1,7 @@
 package test;
 
-import main.Encrypt;
+
+import main.URI_1024.Encrypt;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 

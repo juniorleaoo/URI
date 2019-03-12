@@ -1,23 +1,22 @@
 package main;
 
-import java.util.Scanner;
+import main.URI_1001.URI_1001;
+import main.URI_1024.URI_1024;
+import main.URI_2717.URI_2717;
+
+import java.io.IOException;
 
 public class Main {
 
-    public static void main(String[] args) {
-        int quantidadeLinhas;
-        Scanner scanner = new Scanner(System.in);
-        quantidadeLinhas = scanner.nextInt();
+    public static void main(String[] args) throws IOException {
+        URI_1001 uri_1001 = new URI_1001();
+        uri_1001.execute();
 
+        URI_1024 uri_1024 = new URI_1024();
+        uri_1024.execute();
 
-        while (quantidadeLinhas >= 0) {
-            Encrypt encrypt = new Encrypt(scanner.nextLine());
-            encrypt.executaTodasEtapas();
-
-            System.out.println(encrypt.getEntrada());
-            quantidadeLinhas--;
-        }
-
+        URI_2717 uri_2717 = new URI_2717();
+        uri_2717.execute();
     }
 
 }

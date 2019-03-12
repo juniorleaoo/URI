@@ -1,7 +1,9 @@
+package main.URI_1131;
+
 import java.io.IOException;
 import java.util.Scanner;
  
-public class Main {
+public class URI_1131 {
  
     public static void main(String[] args) throws IOException {
         int vitoriaGremio = 0, vitoriaInter = 0, empates = 0, golsInter = 0, golsGremio = 0, opcao;

@@ -1,4 +1,4 @@
-package main;
+package main.URI_1024;
 
 public class Encrypt {
     private StringBuilder entrada;
